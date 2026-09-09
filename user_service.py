@@ -39,6 +39,8 @@ def divide(a: float, b: float) -> float:
     return a / b
 
 
+
+#------------------     
 # --------------------------------------------------
 # 2. SQL Injection
 # --------------------------------------------------
@@ -464,4 +466,4 @@ def write_log(message: str):
 
     file.write(message + "\n")
 
-    return True
+    return True                                         
